@@ -1,14 +1,14 @@
 {
-  "name": "drupal/trustycrm_company",
+  "name": "trustylab/trustycrm_company",
   "type": "drupal-module",
   "description": "trustycrm company",
   "keywords": ["Drupal"],
   "license": "GPL-2.0+",
-  "homepage": "https://www.drupal.org/project/trustycrm_company",
+  "homepage": "https://trustylab.com",
   "minimum-stability": "dev",
   "support": {
-    "issues": "https://www.drupal.org/project/issues/trustycrm_company",
-    "source": "http://cgit.drupalcode.org/trustycrm_company"
+    "issues": "https://bitbucket.org/trustylab/trustycrm_company/issues",
+    "source": "https://bitbucket.org/trustylab/trustycrm_company/src"
   },
   "require": { }
 }
