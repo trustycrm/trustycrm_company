@@ -1,0 +1,8 @@
+name: trustycrm company
+type: module
+description: trustycrm company
+core: 8.x
+package: Trusty CRM
+dependencies:
+  - trustycrm
+  - views

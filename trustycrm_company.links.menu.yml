@@ -1,0 +1,14 @@
+
+# Company menu items definition
+entity.trusty_company.collection:
+  title: 'Company list'
+  route_name: entity.trusty_company.collection
+  description: 'List Company entities'
+  parent: system.admin_structure
+  weight: 100
+
+trusty_company.admin.structure.settings:
+  title: Company settings
+  description: 'Configure Company entities'
+  route_name: trusty_company.settings
+  parent: system.admin_structure

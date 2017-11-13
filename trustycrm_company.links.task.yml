@@ -1,0 +1,22 @@
+# Company routing definition
+trusty_company.settings_tab:
+  route_name: trusty_company.settings
+  title: 'Settings'
+  base_route: trusty_company.settings
+
+entity.trusty_company.canonical:
+  route_name: entity.trusty_company.canonical
+  base_route: entity.trusty_company.canonical
+  title: 'View'
+
+entity.trusty_company.edit_form:
+  route_name: entity.trusty_company.edit_form
+  base_route: entity.trusty_company.canonical
+  title: 'Edit'
+
+entity.trusty_company.delete_form:
+  route_name:  entity.trusty_company.delete_form
+  base_route:  entity.trusty_company.canonical
+  title: Delete
+  weight: 10
+

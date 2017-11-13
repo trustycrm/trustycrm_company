@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains trustycrm_company.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function trustycrm_company_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the trustycrm_company module.
+    case 'help.page.trustycrm_company':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('trustycrm company') . '</p>';
+      return $output;
+
+    default:
+  }
+}

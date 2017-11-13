@@ -1,0 +1,14 @@
+{
+  "name": "drupal/trustycrm_company",
+  "type": "drupal-module",
+  "description": "trustycrm company",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/trustycrm_company",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/trustycrm_company",
+    "source": "http://cgit.drupalcode.org/trustycrm_company"
+  },
+  "require": { }
+}

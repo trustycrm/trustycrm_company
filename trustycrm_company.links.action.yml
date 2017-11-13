@@ -1,0 +1,5 @@
+entity.trusty_company.add_form:
+  route_name: entity.trusty_company.add_form
+  title: 'Add Company'
+  appears_on:
+    - entity.trusty_company.collection
